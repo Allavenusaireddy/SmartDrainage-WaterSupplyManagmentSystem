@@ -5,7 +5,7 @@ export function ensureDefaults() {
 
   if (!users.find((u) => u.role === "admin")) {
     users.push({
-      id: "0002",
+      id: "0000",
       name: "Admin",
       email: "admin@admin.com",
       phone: "0000",
